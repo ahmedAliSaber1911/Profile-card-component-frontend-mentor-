@@ -1,0 +1,109 @@
+/* general */
+:root{
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--Dark-cyan);
+    font-family: 'Overpass', sans-serif;
+    width: 100vw;
+    height: 100vh; 
+    background-image: url(./images/bg-pattern-top.svg) , url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat , no-repeat;
+    background-position: right 51vw bottom 35vh , left 50vw top 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 350px;
+    height: 360px;
+    border-radius: 1.5rem;
+}
+.header{
+    position: relative;
+    margin-bottom: 5.2rem;
+}
+.header>img{
+    border-radius: 1.5rem 1.5rem 0 0 ;
+}
+.header>.victor{
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    font-size: 1.9rem;
+    margin-right: 1rem;
+}
+p{
+    color: var(--Dark-gray);
+    font-size: 1.9rem; 
+}
+.location{
+    color: var(--Dark-gray);
+    font-size: 1.5rem; 
+    margin-top: -1rem;
+    margin-bottom: 1.3rem;
+}
+.hr{
+    width: 100%;
+    background-color: var(--Dark-gray);
+    height: .03rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+}
+.fowollers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.fowollers>h1{
+    font-size: 1.8rem;   
+    font-weight: bolder;
+    margin-bottom: -1.3rem;
+    color: var(--Very-dark-desaturated-blue);
+    text-align: center;
+}
+.fowollers>p{
+    font-size: 1rem;
+    color: var(--Dark-gray);
+    text-align: center;
+    padding-right: .4rem;
+    letter-spacing: .2rem;
+
+}
+
+
+
